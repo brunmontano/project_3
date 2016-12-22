@@ -1,0 +1,93 @@
+/*!IMPORTAN es el que gana siempre*/
+/*!*/
+body{
+	background: grey;
+	font-size: 20px;
+}
+.color-rosa{
+	color: pink;
+	font-family: 'Lobster', cursive;
+}
+.titulo{
+	color: blue;
+	font-size: 80px;
+	font-style: italic;
+	font-weight: bold; /*negrita*/
+	text-transform: uppercase; /*transforma todo el texto en Mayus*/
+	text-decoration: line-through; /*tacha el texto*/
+	font-family: 'Indie Flower', cursive;
+	/*cuando tiene mas de una palabra lleva comillas, de lo contrario no, siempre debe
+	terminar en serif o sans-serif*/
+}
+/*rgba donde "a" ejecuta transparencia*/
+.cuadrado{
+	height: 200px;
+	width: 200px;
+	background: blue;
+	border-top: 4px solid red;
+	border-left: 4px solid green; 
+	border-right: 4px solid yellow;
+	border-bottom: 5px solid black;
+}
+.boton{
+	background: red;
+	color: white;
+	text-decoration: none;	
+	font-size: 50px;
+}
+.boton:hover{
+	background: blue;
+	color:yellow;
+}
+.elementos{
+	color: red;
+}
+.elementos li:first-child{ 
+	color: blue;
+}
+.elementos li:last-child{
+	color: green;
+}
+.elementos li:nth-child(2){
+	color: pink;
+}
+.elementos li:nth-child(odd){ /*afecta a todos los impares*/
+	background: white;
+}
+.circulo{
+	width: 200px;
+	height: 200px;
+	border-radius:50%; /*redondea?*/
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);  /*Sombra*/
+	border: 3px solid pink;
+}
+.circulo1{
+	background: red;
+}
+.circulo2{
+	background: blue;
+}
+.circulo3{
+	background: green;
+}
+.lorem {
+    line-height: 50px;
+    letter-spacing: 10px;
+}
+.icono{
+	color: blue;
+	font-size: 60px;
+}
+li{
+	list-style: none;
+}
+
+.twi{
+	color: #55acee;
+}
+.ins{
+	color:#125688;
+}
+.lin{
+	color: #007bb5;
+}
